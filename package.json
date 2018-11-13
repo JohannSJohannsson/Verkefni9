@@ -1,0 +1,20 @@
+{
+  "name": "v9",
+  "version": "1.0.0",
+  "description": "verkefni 9",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint *.js **/*.js",
+    "test": "npm run eslint",
+    "dev": "browser-sync start --server --files index.html styles.css scripts.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "eslint": "^5.9.0",
+    "eslint-config-google": "^0.11.0"
+  },
+  "dependencies": {}
+}
