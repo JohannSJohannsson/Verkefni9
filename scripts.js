@@ -106,6 +106,7 @@ const program = (() => {
       })
       .catch((error) => {
         displayError('Villa við að sækja gögn');
+        console.error(error); /*eslint-disable */
       });
   }
 
